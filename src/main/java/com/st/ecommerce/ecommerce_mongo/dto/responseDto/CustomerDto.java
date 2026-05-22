@@ -1,4 +1,4 @@
-package com.st.ecommerce.ecommerce_mongo.dto;
+package com.st.ecommerce.ecommerce_mongo.dto.responseDto;
 
 import lombok.Data;
 
@@ -6,6 +6,7 @@ import java.util.List;
 
 @Data
 public class CustomerDto {
+
     private String id;
 
     private String name;
